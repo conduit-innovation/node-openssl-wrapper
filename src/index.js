@@ -6,7 +6,7 @@ const isFunction = maybeFunction => typeof maybeFunction === 'function';
 const expectedStderrForAction = {
   'cms.verify': /^verification successful/i,
   'genrsa': /^generating/i,
-  'genpkey': /^generating/i,
+  'genpkey': /^./i,
   'ecparam': /^generating/i,
   'ec': /^writing EC key/i,
   'pkcs12': /^mac verified ok/i,
