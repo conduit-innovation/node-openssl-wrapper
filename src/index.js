@@ -8,7 +8,7 @@ const expectedStderrForAction = {
   'genrsa': /^generating/i,
   'genpkey': /^./i,
   'ecparam': /^generating/i,
-  'ec': /^writing EC key/i,
+  'ec': /^read EC key/i,
   'pkcs12': /^mac verified ok/i,
   'req.new': /^generating/i,
   'req.verify': /^verify ok/i,
